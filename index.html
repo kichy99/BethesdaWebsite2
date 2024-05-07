@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>WEBSITE</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -11,8 +11,8 @@
    <link rel="stylesheet" href="/small.css">
 </head>
 
-<style>
-
+<STYle>
+    
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Jacquard+24&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
@@ -21,6 +21,21 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+}
+
+.pic-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 68vh;
+    padding-bottom: 5vh;
+   
+    
+}
+
+#image{
+   max-width: 50vw;
 }
 
 .header{
@@ -68,7 +83,7 @@ nav img{
     color: black;
     text-decoration: none;
     font-size: 18px;
-    font-family: "Poetsen One", sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-style: normal;
     
@@ -95,20 +110,20 @@ nav img{
     /* width: 90%; */
     width: auto;
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 .text-box h1{
-    font-size: 5rem;
+    font-size: 4.2rem;
     /* margin-top: 0rem; */
 }
 .text-box h3{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .text-box pre{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     /* border: 2px solid red; */
     background-color: rgba(211, 200, 200, 0.364);
@@ -125,9 +140,8 @@ nav img{
     color: white;
     border: 1px solid skyblue;
     background-color: skyblue;
-    padding: 12px 34px;
+    padding: 10px 32px;
     font-size: 13px;
-    
     position: relative;
     cursor: pointer;
    
@@ -183,6 +197,7 @@ border-radius: 10px; /* Example border radius */
     align-items: center;
     justify-content: center; 
     min-height: 120vh; 
+    width: 100vw;
    
 }
 .About h1{
@@ -215,7 +230,7 @@ margin-left: 10px;
 /* Aims  */
 #Aims{
  background-color: skyblue;
- color: white;  
+ /* color: white;   */
  display: flex;
     align-items: center;
     justify-content: center; 
@@ -234,7 +249,7 @@ margin-left: 10px;
  .aims-container{
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem;
 }
 .aims-li{
     font-weight: 300;
@@ -243,31 +258,32 @@ margin-left: 10px;
 /* Services */
 #Services{
     display: flex; 
-    min-height: 100vh;   
+    min-height: 100vh; 
+    width: 100vw;  
 }
 .services-outer-container{
-   
+
     background-color:  skyblue;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .services-outer-container h1{
-    color: white;
+    /* color: white; */
     text-align: center;
     margin-top: 15vh;
     font-size: 3rem;
     font-weight: 900;
 }
  .services-container{
-   
     display: flex;
     /* display: none; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 3rem;
+    max-width: 100vw;
 }
 .services-card-container{
 
@@ -287,7 +303,7 @@ margin-left: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0.6rem 2rem 0.6rem;
     border-radius: 1rem;
 }
 .services-card:hover{
@@ -312,6 +328,7 @@ margin-left: 10px;
     padding: 3rem;
     padding: 2rem 3rem 2rem 3rem;
 }
+
 /* .services-card:hover {
     background-color: rgba(169, 12, 12, 0.8);
     transition: background-color 0.3s;
@@ -363,15 +380,16 @@ margin-left: 10px;
     width: 8rem;
     margin-top: 1.4rem;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 2px rgb(84, 83, 83);
+    box-shadow: 0px 0px 0px 2px rgb(84, 83, 83);
 }
 .details-btn:hover {
     transform: translateY(1px);
     scale: 1.03;
-    box-shadow: 0px 0px 1px 2px rgb(84, 83, 83);
+    box-shadow: 0px 0px 3px 2px rgb(84, 83, 83);
 }
 .aims-li{
     font-weight: 300;
+    
 }
 
 /* news */
@@ -380,12 +398,13 @@ margin-left: 10px;
     align-items: center;
     justify-content: center; 
     min-height: 100vh;  
-    background-color: skyblue; 
+    /* background-color: skyblue;  */
 }
 #News h1{
     text-align: center;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 800;
+    margin-top: -15rem;
 }
 .News-container{
    
@@ -415,7 +434,6 @@ margin-left: 10px;
 .feedback-container h1{
    text-align: center;
    padding-top: 10rem;
-   font-size: 1.7rem;
   
 
 }
@@ -590,7 +608,7 @@ margin-bottom: 0.5rem;
     
 }
 
-/* smallscren */
+/* SMALLSCREEN */
 @media (max-width: 700px) {
 
 .text-box h1{
@@ -777,12 +795,6 @@ nav h3{
 }
 .services-details li{
 font-size: 0.9rem;
-
-        width: 100%;
-    
-}
-.services-details dd{
-    font-size: 0.7rem;
 }
 .services-details p{
     font-size: 0.8rem;
@@ -791,7 +803,6 @@ font-size: 0.9rem;
     margin-bottom: 5vh;
     margin-top: 2rem;
     position: static;
-    padding: 1rem;
 }
 
 
@@ -819,14 +830,144 @@ font-size: 0.9rem;
     min-height: 85vh;
 }
 
+
 }
 
 @media (max-width: 420px) {
 nav {
     gap: 7rem;
+    padding: 0 !important;
 }
 #About{
     padding-top: 13vh;
+}
+#image {
+    max-width: 100vw;
+}
+.text-box {
+    top: 45%;
+}
+.pic-container{
+    padding-top: 70vh;
+}
+#vision{
+    margin-top: -1rem;
+}
+.aims-outer-container h1 {
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    margin-bottom: -1.5rem;
+}
+.services-outer-container h1 {
+    font-size: 1.6rem;
+}
+.services-card {
+    margin-top: 0rem;
+    min-height: 4rem;
+
+}
+.services-card h2 {
+    font-size: 1.1rem;
+   
+}
+.services-container{
+    max-width: 70vw;
+}
+.services-details li {
+    font-size: 0.7rem;
+    width: 83vw;
+    list-style: inside;
+    
+}
+.services-details h2 {
+    margin-bottom: -1rem;
+}
+#d1, #d2, #d3, #d4, #d5, #d6, #d7, #d8 {
+    padding: 1.5rem;
+}
+ #d7 h2, #d8 h2{
+    margin-bottom: 1rem;
+}
+.services-details p {
+    font-size: 0.7rem;
+    padding: 0rem !important;
+}
+.services-details dd{
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+.services-details dl{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+.News-container{
+   padding-top: 8rem;
+}
+.Media-container h1 {
+    font-size: 2rem;
+}
+.gallery .p {
+    width: 25rem;
+    max-width: 75vw;
+}
+.contact-container h1 {
+    font-size: 1.6rem;
+}
+.official h3 {
+    font-size: 0.9rem;
+}
+.official-sec li {
+    font-size: 0.7rem;
+}
+.another h2 {
+    font-size: 1.6rem;
+}
+.another p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-top: -0.6rem;
+}
+.a1 h3 {
+    font-size: 0.7rem;
+}
+.a1 pre{
+    font-size: 0.7rem;
+}
+.contact_input {
+   border: transparent;
+}
+.contact_button {
+   border: transparent;
+}
+}
+
+@media (max-width: 415px) {
+.text-box {
+    transform: translate(-50%, -70%);
+}
+.aims-outer-container {
+    margin-top: 0rem;
+}
+.aims-li {
+    font-size: 0.7rem;
+}
+.Media-container h1 {
+    margin-top: 2rem;
+}
+.contact-container {
+    min-height: 85vh;
+}
+.a-btn {
+    margin-top: 0.5rem;
+}
+.contact-container h1 {
+    margin-top: 1.5rem;
+}
+.feedback-container h1 {
+    font-size: 0.8rem;
+}
+.contact_inputs {
+    margin-top: 5rem;
 }
 }
 
@@ -947,94 +1088,53 @@ font-size: 7px;
 padding: 0.2rem 0.5rem;
 }
 }
-
-</style>
+</STYle>
 
 <body>
-    
-
+   
     <section class="header" id="header">
-      <nav style=" padding: 3rem;">
-        <div class="head-img">
-          <img src="https://github.com/kichy99/BethesdaWebsite2/blob/main/bywc.logoofficial_0.png?raw=true" alt="officeLogo" >
-          <h3>BYWC</h3>
-      </div>
-          
-          <div class="nav-links" id="nav-links" >
-              <i class="fa-solid fa-x" onclick="hideMenu()"></i>
-              <div class="list-container">
-                  <ul>
-                      <li class="l"><a href="#header" >Home</a></li>
-                      <!-- <li><a href="#About">About Us</a></li> -->
-                      <li class="l"><a href="#Aims">Aims and Objectives</a></li>
-                      <li class="l"><a href="#Services">Programs and Services</a></li>
-                      <li class="l"><a href="#News">News and Events Update</a></li>
-                      <li class="l"><a href="#Media">Media</a></li>
-                      <li class="l"><a href="#Contact">Contact</a></li>
-                      <li class="l"><a href="#Feedback">Feedback</a></li>
+        <nav style=" padding: 3rem;">
+          <div class="head-img">
+            <img src="/bywc.logoofficial_0.png" alt="officeLogo" >
+            <h3 style="font-size: 1.2rem; font-weight: bold;">BYWC</h3>
+        </div>
+            
+            <div class="nav-links" id="nav-links" >
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <div class="list-container">
+                    <ul>
+                        <li class="l"><a href="/index.html" >Home</a></li>
+                        <!-- <li><a href="#About">About Us</a></li> -->
+                        <li class="l"><a href="/aims.html">Aims and Objectives</a></li>
+                        <li class="l"><a href="/services.html">Programs and Services</a></li>
+                        <li class="l"><a href="/news.html">News and Events Update</a></li>
+                        <li class="l"><a href="/media.html">Media</a></li>
+                        <li class="l"><a href="/contact.html">Contact</a></li>
+                        <li class="l"><a href="/feedback.html">Feedback</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <div class="text-box">
+                <h1>BETHESDA</h1>
+                <H3>YOUTH WELFARE CENTRE, DIMAPUR</H3>
+                <pre>Changing Hearts...
+  Transforming Lives...
+    Restoring People's Dignity...
+  We Serve! Because We CARE...</pre>
+                <a href="#About" class="a-btn">About us</a>
+            </div>
   
-                  </ul>
-              </div>
-          </div>
-          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-      </nav>
-          <div class="text-box">
-              <h1>BETHESDA</h1>
-              <H3>YOUTH WELFARE CENTRE, DIMAPUR</H3>
-              <pre>Changing Hearts...
-Transforming lives...
-  Restoring people's dignity...
-      We serve! Because We CARE...</pre>
-              <a href="#About" class="a-btn">About us</a>
-          </div>
-  </section>
-
-
-
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/photo-1533912352517-92dd08116ea4.avif" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="pic-container" id="pic-container">
+              <img src="https://github.com/kichy99/BethesdaWebsite2/blob/main/WhatsApp%20Image%202024-05-03%20at%2011.30.05_42e4d8eb.jpg?raw=true" alt="" id="image">
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/bg.avif" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/bg1.avif" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-          
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+            
+    </section>
 
-</section> --
-    <!-- about us -->
-    <section class="About" id="About">
+     <!-- about us -->
+     <section class="About" id="About">
         <div class="about-container">
             <h1>About Us</h1>
            <P>
@@ -1046,16 +1146,16 @@ Bethesda YWC has drawn up the plans for a befitting decade of its rich history, 
 
            </P>   
            
-            <h3>Vision</h3>
-            <p>Rebuilding the decadent society for a better tomorrow.</p>
+            <h3 >Vision</h3>
+            <p id="vision">Rebuilding the decadent society for a better tomorrow.</p>
             <h3>Mission</h3>
-           <p>
+           <p id="vision">
             Bethesda Youth Welfare Centre strives to bring hope into the lives of our brothers and sisters, affected and infected by Drugs and HIV/AIDS related problems, the poor and the needy through education, rehabilitation, and health facilities, and to promote socio-economic justice to the marginalized community and create a conducive environment for promoting holistic development. 
            </p>
         </div>
     </section>
 
-    <!-- aims    -->
+    <!-- AIMS -->
     <section id="Aims">
         <div class="aims-outer-container">
             <h1>Aims and Objectives</h1>
@@ -1080,359 +1180,425 @@ Bethesda YWC has drawn up the plans for a befitting decade of its rich history, 
         </div>
         
     </section>
-    
-<!-- services -->
-<section id="Services">
-    <div class="services-outer-container">
-        <h1>Programs and Service provided</h1>
-        <!-- hidden-details-content here in services-details -->
-        <div class="services-details" id="d1">
-            <h2>COUNSELING CENTRE :</h2> <br>
-            <ul> 
-                <li>A vital part of the services provided by the Bethesda Youth Welfare Centre is the Chemical Addiction outpatient    program which is designed to meet the needs of those who do not require in-patient assistance but who needs help in overcoming Substance abuse behaviour. Here the focus is on Chemical dependency counselling whether the problem involves Alcohol, Heroin and other addictive chemicals.</li>
-                <li> The counselling services are available in group, family, couples and individual sessions for all age group. The duration of the Counselling /treatment is determined on the individual basis between the counsellor and the client.</li>
-                <li>The Bethesda outpatient program is conducted through its Counselling Recreational Centre. </li>
-            </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d1-back" onclick="close_details()">Back</button>
+
+     <!-- Services -->
+     <section id="Services">
+        <div class="services-outer-container">
+            <h1>Programs and Service provided</h1>
+            <!-- hidden-details-content here in services-details -->
+            <div class="services-details" id="d1">
+                <h2>COUNSELING CENTRE :</h2> <br>
+                <ul> 
+                    <li>A vital part of the services provided by the Bethesda Youth Welfare Centre is the Chemical Addiction outpatient    program which is designed to meet the needs of those who do not require in-patient assistance but who needs help in overcoming Substance abuse behaviour. Here the focus is on Chemical dependency counselling whether the problem involves Alcohol, Heroin and other addictive chemicals.</li>
+                    <li> The counselling services are available in group, family, couples and individual sessions for all age group. The duration of the Counselling /treatment is determined on the individual basis between the counsellor and the client.</li>
+                    <li>The Bethesda outpatient program is conducted through its Counselling Recreational Centre. </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d1-back" onclick="close_details()">Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d2">
-            <h2>DE-ADDICTION & REHABILITATION : </h2><br>
-            <ul>
-                <li>15 Bedded indoor de-toxification and pre-rehabilitation counseling program for one month.</li>
-                <li>Three to six months rehabilitation program based on four pronged approach viz.., physical Therapy, Spiritual Therapy, work and Social Therapy.  </li>
-            </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d2-back"onclick="close_details2()" >Back</button>
+            <div class="services-details" id="d2">
+                <h2>DE-ADDICTION & REHABILITATION : </h2><br>
+                <ul>
+                    <li>15 Bedded indoor de-toxification and pre-rehabilitation counseling program for one month.</li>
+                    <li>Three to six months rehabilitation program based on four pronged approach viz.., physical Therapy, Spiritual Therapy, work and Social Therapy.  </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d2-back"onclick="close_details2()" >Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d3">
-            <h2> PEOPLE'S RESPONSE TO CLIMATE CHANGE AND 
-            CAPACITY BUILDING ON PATRIARCHAL STRUCTURE AND
-             CRIMINAL JUSTICE SYSTEM REFORM IN NEI :</h2><br>
-            <p>The Project’s, People’s Response to Climate Change & Capacity Building on Patriarchal Structure and Criminal Justice System Reform in NEI is a continuation project of the erstwhile project of Strengthening Collective Efforts in North East India (SCENEI) which was started in the year 2004 covering 18 villages in the initial project period but later on expanded to 20 villages at present in the Nagaland-Assam Border of Wokha district of Bhandari Sub Division, Nagaland. This project is being operated in partnership with NE NGO Dialogue Forum supported by Bread for the World (BfTW) Germany. The Major activities that are being carried out are as follows: -</p>
+            <div class="services-details" id="d3">
+                <h2> PEOPLE'S RESPONSE TO CLIMATE CHANGE AND 
+                CAPACITY BUILDING ON PATRIARCHAL STRUCTURE AND
+                 CRIMINAL JUSTICE SYSTEM REFORM IN NEI :</h2><br>
+                <p>The Project’s, People’s Response to Climate Change & Capacity Building on Patriarchal Structure and Criminal Justice System Reform in NEI is a continuation project of the erstwhile project of Strengthening Collective Efforts in North East India (SCENEI) which was started in the year 2004 covering 18 villages in the initial project period but later on expanded to 20 villages at present in the Nagaland-Assam Border of Wokha district of Bhandari Sub Division, Nagaland. This project is being operated in partnership with NE NGO Dialogue Forum supported by Bread for the World (BfTW) Germany. The Major activities that are being carried out are as follows: -</p>
 <Ol>
-<li>Promotion of Indigenous food & seeds: 
-    <P>In the midst of the mysterious insects attacks that are occurring on the agricultural crops from time to time the promotion of the indigenous foods and seeds, which had withstood different climatic invasion and changes since time immemorial need to be encouraged to the rural farmers. Besides, the indigenous food and crops can grow well without the application of artificial fertilizers and insecticides-the agent of air pollution and the various negative implications.</P>
-</li>
-<LI>
-    Formation of Food and Seed bank:
-    <P>
-        In order to keep alive the continuity of the indigenous food and seeds formation of food and seed bank in every village is necessary. Different methods of preservation need to be identified in order to ensure safety of the crops.         
-    </P>
-</LI>
-<li>
-    Promotion of SHGs & Economic Literacy:
-    <p>
-        Promotion or formation Self Helps Groups especially rural women farmers not only helps them in their economic upliftment but also encourages them in organic agricultural practices. The SHGs are also facilitates in linkages with different financial institution to enable them to access to various financial assistance besides exploring them for marketing avenues for uninterrupted marketing activities. We also conduct exposure cum exchange knowledge program to the rural women farmers to different places in exchanging their different knowledge on cultivation experiences.       
-    </p>
-</li>
-<li>Awareness Creation and Sensitization Program on Climate Change: 
-    <p>Mass awareness campaign and sensitization program on climate change are being conducted at the community level from time to time. The rural communities are also being advocating on community forest conservation and management besides biodiversity conservation & rejuvenation activities during cultural programs and important events such as World Environment Day, Earth Day, Bio Diversity Conservation Day, etc.</p>
-</li>
+    <li>Promotion of Indigenous food & seeds: 
+        <P>In the midst of the mysterious insects attacks that are occurring on the agricultural crops from time to time the promotion of the indigenous foods and seeds, which had withstood different climatic invasion and changes since time immemorial need to be encouraged to the rural farmers. Besides, the indigenous food and crops can grow well without the application of artificial fertilizers and insecticides-the agent of air pollution and the various negative implications.</P>
+    </li>
+    <LI>
+        Formation of Food and Seed bank:
+        <P>
+            In order to keep alive the continuity of the indigenous food and seeds formation of food and seed bank in every village is necessary. Different methods of preservation need to be identified in order to ensure safety of the crops.         
+        </P>
+    </LI>
+    <li>
+        Promotion of SHGs & Economic Literacy:
+        <p>
+            Promotion or formation Self Helps Groups especially rural women farmers not only helps them in their economic upliftment but also encourages them in organic agricultural practices. The SHGs are also facilitates in linkages with different financial institution to enable them to access to various financial assistance besides exploring them for marketing avenues for uninterrupted marketing activities. We also conduct exposure cum exchange knowledge program to the rural women farmers to different places in exchanging their different knowledge on cultivation experiences.       
+        </p>
+    </li>
+    <li>Awareness Creation and Sensitization Program on Climate Change: 
+        <p>Mass awareness campaign and sensitization program on climate change are being conducted at the community level from time to time. The rural communities are also being advocating on community forest conservation and management besides biodiversity conservation & rejuvenation activities during cultural programs and important events such as World Environment Day, Earth Day, Bio Diversity Conservation Day, etc.</p>
+    </li>
 </Ol>
 
-            <div class="btn-container">
-                <button class="btn-back" id="d3-back"onclick="close_details3()" >Back</button>
+                <div class="btn-container">
+                    <button class="btn-back" id="d3-back"onclick="close_details3()" >Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d4" >
-            <h2>TRAGETED INTERVENTION (IDUs) PROJECTS :</h2><br>
-            <p>Bethesda Youth Welfare Centre has initiated Targeted Intervention Projects for Injecting Drug Users (IDUs) in 3 districts of Nagaland, which is functioning in Networking with Nagaland State AIDS Control Society and EHA/AVAHAN -Project ORCHID.</p>
-            <dd>Objective: </dd>
-            <ul><li>To create a situation whereby the spread of HIV/AIDS among the targeted IDUs could be controlled.
+            <div class="services-details" id="d4" >
+                <h2>TRAGETED INTERVENTION (IDUs) PROJECTS :</h2><br>
+                <p>Bethesda Youth Welfare Centre has initiated Targeted Intervention Projects for Injecting Drug Users (IDUs) in 3 districts of Nagaland, which is functioning in Networking with Nagaland State AIDS Control Society and EHA/AVAHAN -Project ORCHID.</p>
+                <dd>Objective: </dd>
+                <ul><li>To create a situation whereby the spread of HIV/AIDS among the targeted IDUs could be controlled.
+                </li>
+                <li>
+                    To improve the quality of life by enhancing awareness level about HIV/AIDS and related issues among the IDUs/DUs/ General Population.
+                </li>
+                <li>
+                    To deal with the attitude of IDUs with respect to use of safer method of injection/condom and bring the targeted to the Harm Reduction Program.
+                </li>
+                    <br>
+                <dl>Activities under DICs :
+                    <dd>- Counseling and one to one interaction</dd>
+                    <dd>- Abscess Care/Treatment</dd>
+                    <dd>- STI Treatment</dd>
+                    <dd>- STD,HIV/AIDS referrals & Primary Medical Care and rehabilitation information</dd>
+                    <dd>- Advocacy Meeting & Focus Group Discussion (FGD)</dd>
+                    <dd>- Awareness Campaigns on Drug & HIV/AIDS</dd>
+                    <dd>- Condom Promotion and Needle & Syringe Exchange Program (NSEP)</dd>
+                    <dd>- IEC/Recreational materials procurement and distribution </dd>
+                     <br>
+               <dl> </dl>
             </li>
-            <li>
-                To improve the quality of life by enhancing awareness level about HIV/AIDS and related issues among the IDUs/DUs/ General Population.
-            </li>
-            <li>
-                To deal with the attitude of IDUs with respect to use of safer method of injection/condom and bring the targeted to the Harm Reduction Program.
-            </li>
-                <br>
-            <dl>Activities under DICs :
-                <dd>- Counseling and one to one interaction</dd>
-                <dd>- Abscess Care/Treatment</dd>
-                <dd>- STI Treatment</dd>
-                <dd>- STD,HIV/AIDS referrals & Primary Medical Care and rehabilitation information</dd>
-                <dd>- Advocacy Meeting & Focus Group Discussion (FGD)</dd>
-                <dd>- Awareness Campaigns on Drug & HIV/AIDS</dd>
-                <dd>- Condom Promotion and Needle & Syringe Exchange Program (NSEP)</dd>
-                <dd>- IEC/Recreational materials procurement and distribution </dd>
-                 <br>
-           <dl> </dl>
-        </li>
-            <div class="btn-container">
-                <button class="btn-back" id="d4-back"onclick="close_details4()" >Back</button>
+                <div class="btn-container">
+                    <button class="btn-back" id="d4-back"onclick="close_details4()" >Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d5">
-            <h2>RURAL HEALTH & EDUCATIONAL UPLIFTMENT PROGRAM : </h2><br>
-            <ul>
-                <li>Rural Health & Educational programme was started in 1999 eith thrust area on the interstate border of Assam Nagaland on the foothills of Wokha District.</li>
-                <li>The Center periodically conducts free medical camps and awareness on proper health care covering 15 village in the area and currently supporting a Rural Health Worker in Lio- Wokha area. A rural Elementary School is in progress and the academic session is functional since 2001.  </li>
-            </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d5-back"onclick="close_details5()" >Back</button>
+            <div class="services-details" id="d5">
+                <h2>RURAL HEALTH & EDUCATIONAL UPLIFTMENT PROGRAM : </h2><br>
+                <ul>
+                    <li>Rural Health & Educational programme was started in 1999 eith thrust area on the interstate border of Assam Nagaland on the foothills of Wokha District.</li>
+                    <li>The Center periodically conducts free medical camps and awareness on proper health care covering 15 village in the area and currently supporting a Rural Health Worker in Lio- Wokha area. A rural Elementary School is in progress and the academic session is functional since 2001.  </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d5-back"onclick="close_details5()" >Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d6">
-            <h2>SUBSTITUTION THERAPY PROJECT :</h2><br>
-            <ul>
-                <li>This project is an additional component of Harm Reduction program available in Nagaland. The project is funded by DFID focusing on reducing the rate of HIV infection amongst the IDUs (Injecting Drug Users).</li>
-                <li>This project aims at changing the behavioral pattern of drug use from injecting to oral. The targeted Injecting Drug Users will be motivated and convinced into substitution program which will gradually help them to give up injecting habits reducing the risk of HIV infection through unsafe use of injecting equipments. However this project was merged with the Normal TI Project since 2009-10 sessions onwards.</li>
-                <br>
-                <dl>
-                    Core Activities: 
-                </dl>
-                <dd>-Buprenorphine Dispensing</dd>
-                <dd>-TB Treatment</dd>
-                <DD>-Counseling</DD>
-                <dd>-Family Meeting</dd>
-                <dd>-Advocacy Programs</dd>
-                <dd>-Focus Group Discussion</dd>
-                <dd>-Referrals</dd>
-            </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d6-back"onclick="close_details6()" >Back</button>
+            <div class="services-details" id="d6">
+                <h2>SUBSTITUTION THERAPY PROJECT :</h2><br>
+                <ul>
+                    <li>This project is an additional component of Harm Reduction program available in Nagaland. The project is funded by DFID focusing on reducing the rate of HIV infection amongst the IDUs (Injecting Drug Users).</li>
+                    <li>This project aims at changing the behavioral pattern of drug use from injecting to oral. The targeted Injecting Drug Users will be motivated and convinced into substitution program which will gradually help them to give up injecting habits reducing the risk of HIV infection through unsafe use of injecting equipments. However this project was merged with the Normal TI Project since 2009-10 sessions onwards.</li>
+                    <br>
+                    <dl>
+                        Core Activities: 
+                    </dl>
+                    <dd>-Buprenorphine Dispensing</dd>
+                    <dd>-TB Treatment</dd>
+                    <DD>-Counseling</DD>
+                    <dd>-Family Meeting</dd>
+                    <dd>-Advocacy Programs</dd>
+                    <dd>-Focus Group Discussion</dd>
+                    <dd>-Referrals</dd>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d6-back"onclick="close_details6()" >Back</button>
+                </div>
             </div>
-        </div>
-        <div class="services-details" id="d7">
+            <div class="services-details" id="d7">
 <h2>PROMOTING PREVENTION, CARE AND MANAGEMENT ON DIABETES AMONGST INDIGENOUS PEOPLE AND EMPHASIZING ON DIABETIC FOOT CARE :</h2>
 <ul>
-<li>The Project was started in the year 2016 March in collaboration with World Diabetes Foundation, Gentofte, Denmark. It is mainly focuses on Promoting Prevention, Care and Management amongst indigenous people emphasizing on Diabetic Foot Care. Presently, it is working with 2 districts of Nagaland  i.e Dimapur and Wokha covering 379 villages.</li>
-<li>It also provides free space for a Children ministry called KIDS WORKSHIP CENTRE. With all the basic amenities available, the guests are made comfortable during their stay at the centre. The centre is also in the process of setting up a library hall cum internet café which will provide basic and necessary information’s.</li>
-<li>TThis Project aims to reduce the mortality and morbidity a foot problems and foot amputation of indigenous people from diabetes and its complications. </li>
-<br>
-<dl>Main Objectives are :</dl>
-<dd>•	To prevent diabetes amongst indigenous people at the remote villages.</dd>
-<dd>•	To enhance Care, Treatment and Management of Diabetes.</dd>
-<dd>•	To established Diabetic Clinics with arrangement for Diabetic Foot Care at remote area.</dd>
-<dd>•	To create capacity of Doctors and Paramedics on Diabetics Management and Foot Care through comprehensive training.</dd>
+    <li>The Project was started in the year 2016 March in collaboration with World Diabetes Foundation, Gentofte, Denmark. It is mainly focuses on Promoting Prevention, Care and Management amongst indigenous people emphasizing on Diabetic Foot Care. Presently, it is working with 2 districts of Nagaland  i.e Dimapur and Wokha covering 379 villages.</li>
+    <li>It also provides free space for a Children ministry called KIDS WORKSHIP CENTRE. With all the basic amenities available, the guests are made comfortable during their stay at the centre. The centre is also in the process of setting up a library hall cum internet café which will provide basic and necessary information’s.</li>
+    <li>This Project aims to reduce the mortality and morbidity a foot problems and foot amputation of indigenous people from diabetes and its complications. </li>
+    <br>
+    <dl>Main Objectives are :</dl>
+    <dd>•	To prevent diabetes amongst indigenous people at the remote villages.</dd>
+    <dd>•	To enhance Care, Treatment and Management of Diabetes.</dd>
+    <dd>•	To established Diabetic Clinics with arrangement for Diabetic Foot Care at remote area.</dd>
+    <dd>•	To create capacity of Doctors and Paramedics on Diabetics Management and Foot Care through comprehensive training.</dd>
 </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d7-back"onclick="close_details7()" >Back</button>
+                <div class="btn-container">
+                    <button class="btn-back" id="d7-back"onclick="close_details7()" >Back</button>
+                </div>
+            </div>
+            <div class="services-details" id="d8">
+                <h2>YRG CARE RESEARCH STUDY :</h2>
+                <ul>
+                    <li>A research Study Project for “Integrated Care Clinic (ICC) for IDUs in India – a cluster      randomized trial” supported by National Institute of Health (USA) implemented in collaboration with John Hopkins Medical Institution, USA endorsed by ICMR and NACO.  </li>
+                    <li>
+                        Bethesda in collaboration with YRG CARE, CHENNAI, Department of AIDS Control, Government of India and State Aids Control Societies (SACS) is implementing a cluster – randomized trial amongst IDU to test the following Hypothesis
+     <q>Making all the WHO-recommended services available at one centre will improve utilization of all services (cross-referrals) and thereby, reduce HIV Transmission.</q>
+
+                    </li>
+                    <li>
+                        The study is a multi-tiered randomized trial-until now, ethnography phase, baseline assessment of thousand IDU, randomization of sites into control and intervention arm of these study are over continuing from here all, prospective steps are to set up intergraded cares centres, measure process utilization for 24-30 months and then closed out with an impact assessment through another survey involving 1000 IDU (Biological and Behavioral) .
+                    </li>
+                    <li>
+                        The Purpose of the research Study was to Know whether the service are enhanced and up taken to strengthen the existing programs.
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d8-back"onclick="close_details8()" >Back</button>
+                </div>
+            </div>
+            <!-- <div class="services-details" id="d9">
+<h2>INTER-PERSONAL AND COMMUNITY BASED COMMUNICATION (IPC) :</h2>
+<ul>
+    <li>The IPC Project started from 28th January 2009. Supported by Australian international Health Institute (the University of Melbourne) Ltd (AIHI).
+
+        The following are the objectives carried out to reduce Stigma and Discrimination toward people living with HIV/AIDS- </li>
+        <ol start="a">
+            <li>Strengthening the capacity of the women in general to facilitate change in the community</li>
+            <li>To provide information and education of HIV/AIDS for correct and factual knowledge free from Myths and misconceptions</li>
+            <li>To develop adequate understanding of the different form of HIV/AIDS  related Stigma and Discrimination</li>
+        </ol>
+        <dl style="margin-top: 0.5rem;">The following area are being covered under this project- </dl>
+        <ol type="a">
+            <li>Bhandari</li>
+            <li>Sanis Town & Sanis Village</li>
+            <li>Merapani</li>
+            <li>Doyang</li>
+            <li>Pangti</li>
+            <li>Tssori </li>
+        </ol>
+</ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d9-back">Back</button>
+                </div>
+            </div>
+            <div class="services-details" id="d10">
+                <h2>SUBSTITUTION THERAPY PROJECT :</h2>
+                <ul>
+                    <li>This project is an additional component of Harm Reduction program available in 3 districts of Nagaland. The project is funded by EHA-DFID focusing on reducing the rate of HIV infection amongst the IDUs which in return helps them avoid injecting practices. Core Activities- </li>
+                    <ol type="a">
+                        <li>Buprenorphine Dispensing</li>
+                        <li>TB Treatment</li>
+                        <li>Counseling</li>
+                        <li>Family Meeting</li>
+                        <li>Advocacy Programs</li>
+                        <li>Focus Group Discussion</li>
+                        <li>Referrals </li>
+                    </ol>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d10-back">Back</button>
+                </div>
+            </div>
+            <div class="services-details" id="d11">
+<h2>OTHER HEALTH CARE RELATED PROGRAMS :</h2>
+<ul>
+    <dl>Promoting Prevention, Care and Management of Diabetes amongst indigenous People emphasising on Diabetic Foot Care: </dl>
+    <dd>- A partnership program initiated with WDF(World Diabetic Foundation) under WDF 15-1245 was initiated in March 2016 for a period of 5 years. It aims to reached out to 67500 indigenous people covering 400 Villages in the Districts of Wokha and Dimapur, to perform 27500 Diabetic screening Test and possibly treat about 8000 people with Diabetic foot care. A local partner namely, Zion Welfare Society ,Baghty,Rural Area Foundation and Baseleia Mission were also on board to carry out the work. </dd>
+</ul>
+                <div class="btn-container">
+                    <button class="btn-back" id="d11-back">Back</button>
+                </div>
+            </div> -->
+
+            <!-- cards heading -->
+            <div class="services-container" >
+                <div class="services-card-container" >
+                    <div class="services-card">
+                        <h2 class="des-h2">COUNSELING CENTRE </h2>
+                        <!-- ........................................................................................................ -->
+                        <a href="#Services"><button class="details-btn" id="open-d1" onclick="open_d1()">Read more</button></a>
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2" id="des-h2">DE-ADDICTION AND REHABILITATION</h2>
+                        <a href="#Services"> <button class="details-btn" id="open-d2" onclick="open_d2()">Read more</button></a>
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2" id="des-h2">PEOPLE'S RESPONSE TO CLIMATE CHANGE AND 
+                            CAPACITY BUILDING ON PATRIARCHAL STRUCTURE AND
+                             CRIMINAL JUSTICE SYSTEM REFORM</h2>
+                        <a href="#Services"><button class="details-btn" id="open-d3" onclick="open_d3()">Read more</button></a>                       
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">TRAGETED INTERVENTION (IDUs) PROJECTS</h2>
+                        <a href="#Services"><button class="details-btn" id="open-d4" onclick="open_d4()">Read more</button></a>
+                        
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">RURAL HEALTH & EDUCATIONAL UPLIFTMENT PROGRAM</h2>
+                        <a href="#Services">  <button class="details-btn" id="open-d5" onclick="open_d5()">Read more</button></a>
+                       
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">SUBSTITUTION THERAPY PROJECT </h2>
+                        <a href="#Services">  <button class="details-btn" id="open-d6" onclick="open_d6()">Read more</button></a>
+                      
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">PREVENTION AND MANAGEMENT ON DIABETES AMONGST INDIGENOUS PEOPLE</h2>
+                        <a href="#Services">   <button class="details-btn" id="open-d7" onclick="open_d7()">Read more</button></a>
+                     
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">YRG CARE RESEARCH STUDY </h2>
+                        <a href="#Services">    <button class="details-btn" id="open-d8" onclick="open_d8()">Read more</button>
+                        </div></a>
+                     
+                    <!-- <div class="services-card">
+                        <h2 class="des-h2">INTER-PERSONAL AND COMMUNITY BASED COMMUNICATION (IPC)</h2>
+                        <button class="details-btn" id="open-d9">Read more</button>
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">SUBSTITUTION THERAPY PROJECT </h2>
+                        <button class="details-btn" id="open-d10">Read more</button>
+                    </div>
+                    <div class="services-card">
+                        <h2 class="des-h2">OTHER HEALTH CARE RELATED PROGRAMS </h2>
+                        <button class="details-btn" id="open-d11">Read more</button>
+                    </div> -->
+                </div>
+          
             </div>
         </div>
-        <div class="services-details" id="d8">
-            <h2>YRG CARE RESEARCH STUDY :</h2>
-            <ul>
-                <li>A research Study Project for “Integrated Care Clinic (ICC) for IDUs in India – a cluster      randomized trial” supported by National Institute of Health (USA) implemented in collaboration with John Hopkins Medical Institution, USA endorsed by ICMR and NACO.  </li>
-                <li>
-                    Bethesda in collaboration with YRG CARE, CHENNAI, Department of AIDS Control, Government of India and State Aids Control Societies (SACS) is implementing a cluster – randomized trial amongst IDU to test the following Hypothesis
- <q>Making all the WHO-recommended services available at one centre will improve utilization of all services (cross-referrals) and thereby, reduce HIV Transmission.</q>
+        
+    </section>
 
-                </li>
-                <li>
-                    The study is a multi-tiered randomized trial-until now, ethnography phase, baseline assessment of thousand IDU, randomization of sites into control and intervention arm of these study are over continuing from here all, prospective steps are to set up intergraded cares centres, measure process utilization for 24-30 months and then closed out with an impact assessment through another survey involving 1000 IDU (Biological and Behavioral) .
-                </li>
-                <li>
-                    The Purpose of the research Study was to Know whether the service are enhanced and up taken to strengthen the existing programs.
-                </li>
-            </ul>
-            <div class="btn-container">
-                <button class="btn-back" id="d8-back"onclick="close_details8()" >Back</button>
+     <!-- News -->
+     <section id="News">
+        <div class="News-container">
+        <h1>News and Events Update</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsa debitis aspernatur omnis, tempora, numquam excepturi quidem cupiditate voluptatum inventore magnam placeat asperiores. Id officia quod expedita vitae temporibus laborum? Odio sit accusantium id, ab reprehenderit eaque sunt eum doloribus qui, nobis vitae impedit aut est. Nam enim assumenda porro!</p>
+        </div>
+    </section>
+
+      <!-- Media -->
+      <section id="Media">
+        <div class="Media-outer-container">
+        <div class="Media-container">
+            <h1>Gallery</h1>
+            <div class="gallery">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
+                <img src="/bg.avif" alt="pic1" class="p">
             </div>
         </div>
-        <!-- cards heading -->
-        <div class="services-container" >
-            <div class="services-card-container" >
-                <div class="services-card">
-                    <h2 class="des-h2">COUNSELING CENTRE </h2>
-                    <!-- ........................................................................................................ -->
-                    <a href="#Services"><button class="details-btn" id="open-d1" onclick="open_d1()">Read more</button></a>
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2" id="des-h2">DE-ADDICTION AND REHABILITATION</h2>
-                    <a href="#Services"> <button class="details-btn" id="open-d2" onclick="open_d2()">Read more</button></a>
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2" id="des-h2">PEOPLE'S RESPONSE TO CLIMATE CHANGE AND 
-                        CAPACITY BUILDING ON PATRIARCHAL STRUCTURE AND
-                         CRIMINAL JUSTICE SYSTEM REFORM</h2>
-                    <a href="#Services"><button class="details-btn" id="open-d3" onclick="open_d3()">Read more</button></a>                       
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2">TRAGETED INTERVENTION (IDUs) PROJECTS</h2>
-                    <a href="#Services"><button class="details-btn" id="open-d4" onclick="open_d4()">Read more</button></a>
-                    
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2">RURAL HEALTH & EDUCATIONAL UPLIFTMENT PROGRAM</h2>
-                    <a href="#Services">  <button class="details-btn" id="open-d5" onclick="open_d5()">Read more</button></a>
-                   
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2">SUBSTITUTION THERAPY PROJECT </h2>
-                    <a href="#Services">  <button class="details-btn" id="open-d6" onclick="open_d6()">Read more</button></a>
-                  
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2">PREVENTION AND MANAGEMENT ON DIABETES AMONGST INDIGENOUS PEOPLE</h2>
-                    <a href="#Services">   <button class="details-btn" id="open-d7" onclick="open_d7()">Read more</button></a>
-                 
-                </div>
-                <div class="services-card">
-                    <h2 class="des-h2">YRG CARE RESEARCH STUDY </h2>
-                    <a href="#Services">    <button class="details-btn" id="open-d8" onclick="open_d8()">Read more</button>
-                    </div></a>
-            </div>
-      
-        </div>
     </div>
-    
-</section>
+    </section>
 
-<!-- news -->
-<section id="News">
-    <div class="News-container">
-    <h1>News and Events Update</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsa debitis aspernatur omnis, tempora, numquam excepturi quidem cupiditate voluptatum inventore magnam placeat asperiores. Id officia quod expedita vitae temporibus laborum? Odio sit accusantium id, ab reprehenderit eaque sunt eum doloribus qui, nobis vitae impedit aut est. Nam enim assumenda porro!</p>
-    </div>
-</section>
+       <!-- Contact -->
+       <section id="Contact">
+        <div class="contact-container">
+           <h1 class="cont-h1">Contact <span class="info">Infomation</span></h1>
+           <div class="official" >
+               <div class="official-sec">
+                   <h3>Contact Person</h3>
+                   <li>Chenithung Humtsoe</li>
+                   <li>Executive Director</li>
+                   <li>Phone:                                      9436003967 / 8974028616</li>
+                   <li>E-Mail : chenihmt@yahoo.com</li>
+               </div><br>
+               <div class="official-sec" id="o2">
+                   <h3>Official Address</h3>
+                   <li>BETHESDA YOUTH WELFARE CENTRE</li>
+                   <li>PO Box-33</li>
+                   <li>Hno. 125, Circuit House Colony</li>
+                   <li>Li Complex, Urban Haat Road, Dhansari Bridge</li>
+                   <li>DIMAPUR – 797112, NAGALAND</li>
+                   <li>Email: bethesdaywcd87@protonmail.com
 
-<!-- media -->
-<section id="Media">
-    <div class="Media-outer-container">
-    <div class="Media-container">
-        <h1>Gallery</h1>
-        <div class="gallery">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-            <img src="https://raw.githubusercontent.com/kichy99/BethesdaWebsite2/main/bg.avif" alt="pic1" class="p">
-        </div>
-    </div>
-</div>
-</section>
-
-  <!-- Contact -->
-  <section id="Contact">
-    <div class="contact-container">
-       <h1 class="cont-h1">Contact <span class="info">Infomation</span></h1>
-       <div class="official" >
-           <div class="official-sec">
-               <h3>Contact Person</h3>
-               <li>Chenithung Humtsoe</li>
-               <li>Executive Director</li>
-               <li>Phone:                                      9436003967 / 8974028616</li>
-               <li>E-Mail : chenihmt@yahoo.com</li>
-           </div><br>
-           <div class="official-sec" id="o2">
-               <h3>Official Address</h3>
-               <li>BETHESDA YOUTH WELFARE CENTRE</li>
-               <li>PO Box-33</li>
-               <li>Hno. 125, Circuit House Colony</li>
-               <li>Li Complex, Urban Haat Road, Dhansari Bridge</li>
-               <li>DIMAPUR – 797112, NAGALAND</li>
-               <li>Email: bethesdaywcd87@protonmail.com
-
-               </li>
-               <li>  <a href="#map" class="a-btn" id="butts">Google-Map</a>
-               </li>
-           </div><br>
-           <div class="official-sec">
-               <h3>Timings</h3>
-               <li>Office Hour : 10:00 AM – 4:00 PM</li>
-               <li>24 Hrs Services and Consultation extended to all those who are in distress at the Rehabilitation Center</li>
-           </div>
-   </div>
- 
+                   </li>
+                   <li>  <a href="#map" class="a-btn" id="butts">Google-Map</a>
+                   </li>
+               </div><br>
+               <div class="official-sec">
+                   <h3>Timings</h3>
+                   <li>Office Hour : 10:00 AM – 4:00 PM</li>
+                   <li>24 Hrs Services and Consultation extended to all those who are in distress at the Rehabilitation Center</li>
+               </div>
+       </div>
+     
 <br>
-  
-   <hr>
-   <div class="another" >
-       <h2>Other <span class="info">Locations </span></h2>
-       <div class="a1">
-          
-           <details >
-               <summary>BETHESDA COUNSELING & RECREATIONAL CENTRE</summary>
-               <p>P.O Box-33,130-Duncan, Circular road,
-                   Dimapur- 797112 , Nagaland, INDIA <br>
-                   E-mail : info@bethesda.org</p>
-           </details>
-           
-          
-       </div>
-       <div class="a1">
-           <details><summary>BETHESDA YOUTH WELFARE CENTRE 
-               (De- addiction & Rehabilitation Unit)</summary>
-               <p>P.O. Box – 33, H/No. 194- Duncan Bosti,
-                   Dimapur- 797112, Nagaland. <br>
-                   <!-- <li>Ph.No: 91-3862-229046</li>
-                   <li>Fax: 91-3862-228525/223796</li> -->
-                   E-mail :info@bethesda.org
-                   </p>
-           </details>
+      
+       <hr>
+       <div class="another" >
+           <h2>Other <span class="info">Locations </span></h2>
+           <div class="a1">
+              
+               <details >
+                   <summary>BETHESDA COUNSELING & RECREATIONAL CENTRE</summary>
+                   <p>P.O Box-33,130-Duncan, Circular road,
+                       Dimapur- 797112 , Nagaland, INDIA <br>
+                       E-mail : info@bethesda.org</p>
+               </details>
                
-       </div>
-       <div class="a1">
-           <details>
-               <summary>
-                   BETHESDA DROP IN CENTRE
-               </summary>
-               <p>H/No 130,Duncan Bosti,
-                   Dimapur : 797112, Nagaland, INDIA
-                   <br>
-                   (Extension DIC at Dhobi Nalla)</p>
-                   <h3>Bethesda DIC, Chumukedima </h3>
+              
+           </div>
+           <div class="a1">
+               <details><summary>BETHESDA YOUTH WELFARE CENTRE 
+                   (De- addiction & Rehabilitation Unit)</summary>
+                   <p>P.O. Box – 33, H/No. 194- Duncan Bosti,
+                       Dimapur- 797112, Nagaland. <br>
+                       <!-- <li>Ph.No: 91-3862-229046</li>
+                       <li>Fax: 91-3862-228525/223796</li> -->
+                       E-mail :info@bethesda.org
+                       </p>
+               </details>
+                   
+           </div>
+           <div class="a1">
+               <details>
+                   <summary>
+                       BETHESDA DROP IN CENTRE
+                   </summary>
+                   <p>H/No 130,Duncan Bosti,
+                       Dimapur : 797112, Nagaland, INDIA
+                       <br>
+                       (Extension DIC at Dhobi Nalla)</p>
+                       <h3>Bethesda DIC, Chumukedima </h3>
+                       <pre>
+  (Extension DIC – 6th Mile)</pre>
+                   <h3>Bethesda DIC, Super Market - OST </h3>
                    <pre>
-(Extension DIC – 6th Mile)</pre>
-               <h3>Bethesda DIC, Super Market - OST </h3>
-               <pre>
-(Extension DIC at New Field Check Gate)</pre>
-               <h3>Bethesda Welfare Club Network DIC, Bhandari </h3>
-               <pre>
-(Extension DIC at Sanis Town, Merapani)</pre>
-           </details>
+  (Extension DIC at New Field Check Gate)</pre>
+                   <h3>Bethesda Welfare Club Network DIC, Bhandari </h3>
+                   <pre>
+  (Extension DIC at Sanis Town, Merapani)</pre>
+               </details>
+           </div>
+           <div class="a1">
+               <details>
+                   <summary>
+                       HAYIYAN ELEMENTARY SCHOOL 
+                       (A programme of Bethesda)
+                   </summary>
+                   <p>Hayiyan Lio-Wokha, Bhandari Sub- Div. Wokha District, Nagaland</p>
+               </details>           
+           </div>
+           <div class="a1">
+               <details>
+                   <summary>BETHESDA RURAL CULTURAL CENTRE</summary>
+                   <p>Hayiyan Lio-Wokha Bhandari Sub-Div. Wokha District, Nagaland</p>
+               </details>
+           </div>
        </div>
-       <div class="a1">
-           <details>
-               <summary>
-                   HAYIYAN ELEMENTARY SCHOOL 
-                   (A programme of Bethesda)
-               </summary>
-               <p>Hayiyan Lio-Wokha, Bhandari Sub- Div. Wokha District, Nagaland</p>
-           </details>           
        </div>
-       <div class="a1">
-           <details>
-               <summary>BETHESDA RURAL CULTURAL CENTRE</summary>
-               <p>Hayiyan Lio-Wokha Bhandari Sub-Div. Wokha District, Nagaland</p>
-           </details>
-       </div>
-   </div>
-   </div>
-</section><br>
-<hr>
-<section class="map" id="map">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5625.009644464702!2d93.74095084793886!3d25.906808280957648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37460a0714ffffff%3A0x8cf7f5526cd69802!2sHOUSE%20NO.%20125%2C%20BETHESDA%20YOUTH%20WELFARE%20CENTRE%2C%20CIRCUIT%20HOUSE%20COLONY.%20LI%20COMPLEX%2C%20Urban%20Haat%2C%20OLD%20DHANSIRI%20BRIDGE%2C%20Walford%20Colony%2C%20Dimapur%2C%20Nagaland!5e0!3m2!1sen!2sin!4v1714909925019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
+   </section><br>
+   <hr>
+   <section class="map" id="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5625.009644464702!2d93.74095084793886!3d25.906808280957648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37460a0714ffffff%3A0x8cf7f5526cd69802!2sHOUSE%20NO.%20125%2C%20BETHESDA%20YOUTH%20WELFARE%20CENTRE%2C%20CIRCUIT%20HOUSE%20COLONY.%20LI%20COMPLEX%2C%20Urban%20Haat%2C%20OLD%20DHANSIRI%20BRIDGE%2C%20Walford%20Colony%2C%20Dimapur%2C%20Nagaland!5e0!3m2!1sen!2sin!4v1714909925019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
 
- <!-- Feedback -->
- <section id="Feedback" class="cta">
-    <div class="feedback-outer-container"  >
-        <div class="feedback-container">
-    <h1>We at Bethesda Youth Welfare Centre Dimapur value your sincere suggestions and comments. <br> Please take time to drop a few lines here. </h1>
-    <form action="https://formspree.io/f/mnqewwqp" method="post" class="contact_form" name="google-sheet">
-        <div class="contact_inputs">
-            <input type="text" name="Name" id="" class="contact_input" placeholder="Name">
-            <input type="mail" placeholder="Email" name="Email" class="contact_input">
-        </div>
-        <textarea name="Message" id="" cols="0" rows="10" placeholder="Message"class="contact_input"></textarea>
-        <input type="submit" value="Submit" class="contact_button" >
-    </form>
-</div> 
+     <!-- Feedback -->
+     <section id="Feedback" class="cta">
+        <div class="feedback-outer-container"  >
+            <div class="feedback-container">
+        <h1>We at Bethesda Youth Welfare Centre Dimapur value your sincere suggestions and comments. <br> Please take time to drop a few lines here. </h1>
+        <form action="https://formspree.io/f/mnqewwqp" method="post" class="contact_form" name="google-sheet">
+            <div class="contact_inputs">
+                <input type="text" name="Name" id="" class="contact_input" placeholder="Name">
+                <input type="mail" placeholder="Email" name="Email" class="contact_input">
+            </div>
+            <textarea name="Message" id="" cols="0" rows="10" placeholder="Message"class="contact_input"></textarea>
+            <input type="submit" value="Submit" class="contact_button" >
+        </form>
+    </div> 
+    </div>
 </div>
-</div>
-</section>
-   
+    </section>
 
-    <!-- footer -->
-    <section class="footer">
+      <!-- footer -->
+      <section class="footer">
         <div class="icons">
             <a href="mailto:kbethesdaywcd87@protonmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             <a href="tel:+91-8974028616"><i class="fa-solid fa-phone"></i></a>
@@ -1446,7 +1612,7 @@ Bethesda YWC has drawn up the plans for a befitting decade of its rich history, 
     </section>
 
 
-    <script >
+    <script>
         // services details display
 let services_container = document.getElementsByClassName('services-container')[0];
 
@@ -1657,6 +1823,8 @@ function hideMenu(){
 
 
     </script>
-    <script src="open.js"></script>
+    <script src="/s.js"></script>
+
+
 </body>
 </html>
